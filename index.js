@@ -87,7 +87,7 @@ const input = [
   },
 ];
 
-function makeReadMe(name, data) {
+function createReadMe(name, data) {
   return fs.writeFileSync(filePath.join(process.cwd(), name), data);
 }
 //initial finction that launches inquirer questions then getting responses and passes them over to makeReadMe function which in terms launches our mardown logis from createReadMeFile.js
@@ -95,7 +95,7 @@ function letsGo() {
   inquirer
     .prompt(input)
     .then((responses) =>
-      makeReadMe(`${responses.fName}.md`, generateMarkdown(responses))
+      createReadMe(`${responses.fName}.md`, generateMarkdown(responses))
     );
 }
 letsGo();
