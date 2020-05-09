@@ -1,15 +1,3 @@
-// function generateMarkdown(data) {
-//   return `
-//   # ${data.title}
-
-//   `;
-// }
-
-// module.exports = generateMarkdown;
-
-// the three helper functions are called from createReadMeFile that we are exporting at the bottom of this document
-
-//helper function to generate the URL
 function getUrl(GH, title, link) {
   //const gHstyleURL = title.toLowerCase().split(' ').join('-');
   return `https://github.com/${GH}/${link}`;

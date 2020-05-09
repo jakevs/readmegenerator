@@ -1,11 +1,3 @@
-// const questions = [];
-
-// function writeToFile(fileName, data) {}
-
-// function init() {}
-
-// init();
-
 const fs = require("fs");
 const filePath = require("path");
 const inquirer = require("inquirer");
@@ -55,8 +47,7 @@ const input = [
     type: "input",
     name: "description",
     message: "Please write a short description of your project",
-    default:
-      "this is an app I developed so I can automate read me file development",
+    default: "This application was developed to automate a readme file.",
   },
   {
     type: "list",
@@ -79,21 +70,20 @@ const input = [
   {
     type: "input",
     name: "test",
-    message: "What command should be run to run tests?",
+    message: "What command should be run to test?",
     default: "npm test",
   },
   {
     type: "input",
     name: "usage",
     message: "What does the user need to know about using the repo?",
-    default:
-      "It is an open project and everyone can contribute - please send and email requesting to be added as a contributor!",
+    default: "It is an open project and everyone can contribute!",
   },
   {
     type: "input",
     name: "contributing",
     message: "What does the user need to know about contributing to the repo?",
-    default: "this is an open source app - anyone can contribute",
+    default: "Please send an email if you wish to contribute.",
   },
 ];
 
