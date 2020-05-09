@@ -34,14 +34,14 @@ const input = [
   {
     type: "input",
     name: "URL",
-    message: "the URL to your project?",
-    default: "goodReadMe",
+    message: "The URL to your project?",
+    default: "https://jakevs.github.io/readmegenerator/",
   },
   {
     type: "input",
     name: "title",
     message: "Please type your project's name?",
-    default: "Good README.md generator",
+    default: "readmegenerator",
   },
   {
     type: "input",

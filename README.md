@@ -1,8 +1,8 @@
 
-  # Good README.md generator
-  [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/jakevs/goodReadMe)
+  # readmegenerator
+  [![GitHub license](https://img.shields.io/badge/license-MIT-magenta.svg)](https://github.com/jakevs/https://jakevs.github.io/readmegenerator/)
   ## Description
-  this is an app I developed so I can automate read me file development
+  This application was developed to automate a readme file.
   ## Table of Contents 
   * [Installation](#installation)
   * [Usage](#usage)
@@ -16,13 +16,13 @@
   npm i
   ```
   ## Usage
-  It is an open project and everyone can contribute - please send and email requesting to be added as a contributor!
+  It is an open project and everyone can contribute!
   
   ## License
   License is MIT standard license.
       
   ## Contributing
-  this is an open source app - anyone can contribute
+  Please send an email if you wish to contribute.
   ## Tests
   To run tests, run the following command:
   ```
