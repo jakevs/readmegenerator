@@ -41,7 +41,7 @@ const input = [
     type: "input",
     name: "title",
     message: "Please type your project's name?",
-    default: "readmegenerator",
+    default: "ReadMe Generator - created with node!",
   },
   {
     type: "input",
