@@ -1,6 +1,6 @@
 
   # ReadMe Generator - created with node!
-  [![GitHub license](https://img.shields.io/badge/license-MIT-black.svg)](https://github.com/jakevs/https://jakevs.github.io/readmegenerator/)
+  [![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/jakevs/https://jakevs.github.io/readmegenerator/)
   ## Description
   This application was developed to automate a readme file.
   ## Table of Contents 
@@ -29,4 +29,4 @@
   npm test
   ```
   ## Questions
-  If you have any questions about the repo, open an issue or contact [jakevs](https://github.com/jakevs/) directly at jakevs3@gmail.com.
+  If you have any questions about the repository, or an open issue, please contact [jakevs](https://github.com/jakevs/) directly at jakevs3@gmail.com.

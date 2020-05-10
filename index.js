@@ -1,33 +1,29 @@
 const fs = require("fs");
 const filePath = require("path");
 const inquirer = require("inquirer");
-//importing our functionality from createReadMeFile.js file:
 const generateMarkdown = require("./utils/generateMarkdown");
-//this is an example of email validation finction:
 const validateEmail = (email) => {
   var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(String(email).toLowerCase());
 };
 
-/* these  are some basic iquirer questions. Watch the format!*/
 const input = [
   {
     type: "input",
     name: "GH",
-    message: "Please type your GitHub username?",
+    message: "What is your GitHub username?",
     default: "jakevs",
   },
   {
     type: "input",
     name: "fName",
-    message: "Please provide the name for a .md file?",
+    message: "What is the name for your .md file?",
     default: "README",
   },
-  //note for validation you can use either npm packages e.g. joi or your own function (this is optional)
   {
     type: "input",
     name: "email",
-    message: "Please type your email?",
+    message: "What is your email?",
     default: "jakevs3@gmail.com",
     validate: validateEmail,
   },
@@ -40,7 +36,7 @@ const input = [
   {
     type: "input",
     name: "title",
-    message: "Please type your project's name?",
+    message: "What is your project's name?",
     default: "ReadMe Generator - created with node!",
   },
   {
@@ -90,7 +86,6 @@ const input = [
 function createReadMe(name, data) {
   return fs.writeFileSync(filePath.join(process.cwd(), name), data);
 }
-//initial finction that launches inquirer questions then getting responses and passes them over to makeReadMe function which in terms launches our mardown logis from createReadMeFile.js
 function letsGo() {
   inquirer
     .prompt(input)
