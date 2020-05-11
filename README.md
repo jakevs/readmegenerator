@@ -1,6 +1,6 @@
 
   # ReadMe Generator - created with node!
-  [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/jakevs/https://jakevs.github.io/readmegenerator/)
+  [![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/jakevs/https://jakevs.github.io/readmegenerator/)
   ## Description
   This application was developed to automate a readme file.
   ## Table of Contents 
