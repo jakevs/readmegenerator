@@ -1,8 +1,8 @@
 
   # ReadMe Generator - created with node!
-  [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/jakevs/https://jakevs.github.io/readmegenerator/)
+  [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/jakevs/https://jakevs.github.io/readmegenerator/)
   ## Description
-  This project was designed for the user that wants to create a ReadMe file in a short amount of time, and still have it look great. This will give the user more time 
+  This application was designed for a user that is looking to create a great looking README in a short amount of time. This will allow the user to spend less time working on a README, and more time on their project. The user will create their file by using prompts in the command line in node.js. I used shield.io to get a badge for the license area, where you can use up and down arrows to choose your favorite color for the badge. The table of contents will show information about how to install, run tests, contact, and will have links that take you to a particular section of the document.
   ## Table of Contents 
   * [Installation](#installation)
   * [Usage](#usage)
